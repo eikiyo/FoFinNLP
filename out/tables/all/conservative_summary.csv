@@ -1,0 +1,3 @@
+floor,median_point_ratio,median_conservative_ratio,n_models_above_2x,gradient_slope_all,gradient_r2_all,gradient_slope_frontier,gradient_slope_frontier_lo,gradient_slope_frontier_hi,gradient_r2_frontier,gradient_intercept_frontier,gradient_intercept_lo,gradient_intercept_hi,n_models_frontier
+3,4.9606,1.4675,4,1.6036,0.6828,-0.6356,-6.9122,5.6409,0.0049,0.3428,0.0478,0.6379,10
+5,2.5146,0.7399,0,1.6036,0.6828,-0.6356,-6.9122,5.6409,0.0049,0.3428,0.0478,0.6379,10

@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{l l r r r r r r}
+\toprule
+ & Stratum & Cfg. & f/c & Flagged & Clean & $\Delta$ (Newc.) & $\Delta$ (boot) \\
+\midrule
+wobble & pooled & 12 & 36/427 & 0.255 [.185,.329] & 0.087 [.077,.098] & 0.167 [.128,.211] & [.097,.243] \\
+wobble & numeric & 12 & 30/118 & 0.283 [.205,.378] & 0.093 [.073,.115] & 0.190 [.143,.241] & [.109,.282] \\
+wobble & non-numeric & 12 & 6/309 & 0.111 [.042,.181] & 0.085 [.074,.097] & 0.026 [$-$.029,.119] & [$-$.046,.103] \\
+wobble & pooled & 10 & 36/427 & 0.144 [.072,.231] & 0.036 [.027,.045] & 0.109 [.075,.149] & [.036,.198] \\
+wobble & numeric & 10 & 30/118 & 0.163 [.070,.270] & 0.043 [.026,.063] & 0.121 [.081,.168] & [.026,.229] \\
+wobble & non-numeric & 10 & 6/309 & 0.050 [.017,.083] & 0.033 [.023,.044] & 0.017 [$-$.017,.104] & [$-$.022,.056] \\
+\midrule
+wobble & evidence-absent & 12 & 17/427 & 0.338 [.201,.495] & 0.087 [.077,.098] & 0.251 [.189,.319] & [.115,.409] \\
+wobble & computational & 12 & 17/427 & 0.186 [.157,.216] & 0.087 [.077,.098] & 0.099 [.051,.158] & [.068,.130] \\
+wobble & label-untraceable & 12 & 2/427 & 0.125 [.083,.167] & 0.087 [.077,.098] & 0.038 [$-$.044,.223] & [$-$.010,.087] \\
+\midrule
+disp. & pooled & 12 & 36/427 & 0.104 [.078,.130] & 0.019 [.016,.022] & {--} & 0.085 [.059,.112] \\
+disp. & pooled & 10 & 36/427 & 0.041 [.017,.070] & 0.007 [.005,.009] & {--} & 0.034 [.010,.062] \\
+\bottomrule
+\end{tabular}
+\caption{The flagged-against-clean contrast, stratified. Brackets on the Flagged and Clean cells are 95\% intervals from a bootstrap over \emph{items} (2{,}000 draws, resampling flagged and clean items independently; narrower than Wilson where items are homogeneous, degenerate at $n = 2$), the resampling unit because each item contributes one pair per configuration and those pairs are not independent; the difference column carries the Newcombe interval on the two Wilson intervals beside the item-bootstrap interval for the same difference. \emph{Cfg.} 12 is every configuration, 10 drops the two 1B configurations. The three failure-type rows split the flagged items by cause (Section~\ref{sec:benchmark}), each against the whole clean set, pooled configurations only. Newcombe's method applies to proportions; dispersion is a mean, so its difference carries the bootstrap interval only. \emph{Dispersion} is the share of runs disagreeing with the modal answer, averaged over the same model-item pairs as wobble. The numeric stratum holds 83.3\% of the flags; the non-numeric flagged group has 6 items and the label-untraceable group 2, reported for completeness, not weight.}
+\label{tab:stratified}
+\end{table*}

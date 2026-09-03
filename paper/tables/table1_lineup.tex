@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l l S[table-format=3.0] S[table-format=3.0] S[table-format=1.3]}
+\toprule
+Model & Serving & {Items} & {Unstable} & {Acc.} \\
+\midrule
+gemma4-31b & routed & 426 & 6 & 0.965 \\
+haiku-4.5 & direct & 425 & 6 & 0.962 \\
+llama3.3-70b & routed & 426 & 8 & 0.953 \\
+gemini3-flash & routed & 426 & 9 & 0.965 \\
+mistral-large & routed & 427 & 12 & 0.944 \\
+gpt5-mini & routed & 427 & 20 & 0.965 \\
+deepseek-v4p & direct & 426 & 20 & 0.969 \\
+gpt-oss-120b & routed & 426 & 20 & 0.965 \\
+deepseek-v4f & direct & 427 & 23 & 0.967 \\
+minimax-m2.5 & routed & 427 & 29 & 0.963 \\
+\midrule
+gemma3-1b-qat & local & 427 & 132 & 0.663 \\
+gemma3-1b & local & 426 & 162 & 0.631 \\
+\bottomrule
+\end{tabular}
+\caption{Twelve configurations on the 427 items that pass the provenance audit (52 of 60 tasks retain at least one item), 20 runs per item at temperature 0.7. \emph{Unstable} counts items whose answer is not identical across all 20 runs; accuracy is majority-vote correctness over the same runs. Wobble, the ratio of the two counts, is Figure~\ref{fig:lineup}. The rule marks the order-of-magnitude gap; the two 1B rows are quantizations of one base model, so the twelve configurations span eleven distinct models.}
+\label{tab:lineup}
+\end{table}

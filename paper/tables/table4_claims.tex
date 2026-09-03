@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.27\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth} >{\raggedright\arraybackslash}p{0.36\textwidth} >{\raggedright\arraybackslash}p{0.15\textwidth}}
+\toprule
+Claim tested & Point estimate & Under the conservative reading & Status \\
+\midrule
+Re-windowing lowers wobble to the registered level & 0.208 after, 0.267 before & change 0.058 [$-0.049$, $0.165$] contains zero, and 0.208 exceeds the registered 0.161 & not supported \\
+Worst category runs $N\times$ the mean & median 2.64$\times$ & 0.60$\times$ at the Wilson bounds; 0/12 above $2\times$ & not supported \\
+The gap grows as models improve & slope 3.43 & intercept [$-0.082$, $0.049$] contains zero ($R^2$ 0.680, $n$ = 10) & not supported \\
+Instability is not merely difficulty & $\rho = -0.487$ & residual $\rho = 0.189$ after the structural term & conceded \\
+Correct-but-unstable answers do not occur & 0 tasks observed & ceiling 0.115 $<$ 0.30 threshold & unreachable by construction \\
+\bottomrule
+\end{tabular}
+\caption{Claims tested against this benchmark and not supported by it, our own pre-registered prediction first. \emph{Point estimate} is the number a reader of the aggregate would quote; \emph{under the conservative reading} is what survives attacking it. For the worst-category claim that means the largest Wilson lower bound over estimable categories against the Wilson upper bound of the mean, which avoids selecting a category on the same data used to score it. \emph{Conceded} marks a claim we do not make; \emph{unreachable by construction} marks one this corpus cannot test at all, for the reason given in Section~\ref{sec:instrument}.}
+\label{tab:claims}
+\end{table*}

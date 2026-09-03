@@ -1,0 +1,4 @@
+pairing,n_pairs,mean,median,n_pairs_cross_family,mean_cross_family
+direct-direct,6,0.5666666666666668,0.6,4,0.55
+mixed,42,0.16666666666666674,0.2,42,0.16666666666666674
+routed-routed,42,0.15238095238095242,0.0,42,0.15238095238095242

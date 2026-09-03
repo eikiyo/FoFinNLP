@@ -1,0 +1,13 @@
+model,cells_present,cells_dropped,leaves_zero_wobble,aggregate_wobble,total_measured_items,total_flipped_items
+gemma3-1b,60,0,8,0.424307,469,199
+deepseek-v4f,60,0,42,0.057447,470,27
+deepseek-v4p,60,0,45,0.044776,469,21
+gemma4-31b-or,60,0,53,0.029851,469,14
+mistral-large-or,60,0,48,0.031915,470,15
+minimax-m2.5-or,60,0,42,0.074468,470,35
+llama3.3-70b-or,60,0,51,0.031983,469,15
+gemma3-1b-qat,60,0,10,0.338298,470,159
+gemini3-flash-or,60,0,49,0.025586,469,12
+haiku-4.5-direct,60,0,51,0.027778,468,13
+gpt-oss-120b-or,60,0,40,0.061834,469,29
+gpt5-mini-or,60,0,46,0.055319,470,26

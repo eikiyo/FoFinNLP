@@ -1,0 +1,42 @@
+{
+ "results": [
+  {
+   "leaf": "liquidation_waterfall_payout",
+   "item": "col1_selected_companies_ltm",
+   "url": "https://www.sec.gov/Archives/edgar/data/1211759/000119312518039721/d516937dex99c3.htm",
+   "verdict": "repairable",
+   "reason": "all 2 span(s) present; no span reaches the 40-char evidence floor, so every span was required and checked for proximity (all spans within 1200 characters of one another)",
+   "chars": 64309
+  },
+  {
+   "leaf": "liquidation_waterfall_payout",
+   "item": "col2_selected_companies_fy17e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1211759/000119312518039721/d516937dex99c3.htm",
+   "verdict": "repairable",
+   "reason": "all 2 span(s) present; no span reaches the 40-char evidence floor, so every span was required and checked for proximity (all spans within 1200 characters of one another)",
+   "chars": 64309
+  },
+  {
+   "leaf": "liquidation_waterfall_payout",
+   "item": "col3_selected_companies_fy18e",
+   "url": "https://www.sec.gov/Archives/edgar/data/1211759/000119312518039721/d516937dex99c3.htm",
+   "verdict": "repairable",
+   "reason": "all 2 span(s) present; no span reaches the 40-char evidence floor, so every span was required and checked for proximity (all spans within 1200 characters of one another)",
+   "chars": 64309
+  },
+  {
+   "leaf": "liquidation_waterfall_payout",
+   "item": "col4_discounted_cash_flow",
+   "url": "https://www.sec.gov/Archives/edgar/data/1211759/000119312518039721/d516937dex99c3.htm",
+   "verdict": "repairable",
+   "reason": "all 2 span(s) present; no span reaches the 40-char evidence floor, so every span was required and checked for proximity (all spans within 1200 characters of one another)",
+   "chars": 64309
+  }
+ ],
+ "counts": {
+  "repairable": 4,
+  "unrepairable": 0,
+  "unknown": 0
+ },
+ "n_probed": 4
+}

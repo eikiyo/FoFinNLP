@@ -1,0 +1,42 @@
+quantity,all_items,clean_only,delta,unit
+items in the analysis,463,427,-36,count
+tasks with at least one item in the analysis,60,52,-8,count
+model-item pairs measured,5548,5116,-432,count
+aggregate wobble: gemini3-flash-or,0.025974,0.021127,-0.004847,rate
+aggregate wobble: haiku-4.5-direct,0.028200,0.014118,-0.014082,rate
+aggregate wobble: gemma4-31b-or,0.030303,0.014085,-0.016219,rate
+aggregate wobble: mistral-large-or,0.032397,0.028103,-0.004294,rate
+aggregate wobble: llama3.3-70b-or,0.032468,0.018779,-0.013688,rate
+aggregate wobble: deepseek-v4p,0.045455,0.046948,0.001494,rate
+aggregate wobble: gpt5-mini-or,0.056156,0.046838,-0.009317,rate
+aggregate wobble: deepseek-v4f,0.058315,0.053864,-0.004451,rate
+aggregate wobble: gpt-oss-120b-or,0.060606,0.046948,-0.013658,rate
+aggregate wobble: minimax-m2.5-or,0.073434,0.067916,-0.005518,rate
+aggregate wobble: gemma3-1b-qat,0.339093,0.309133,-0.029959,rate
+aggregate wobble: gemma3-1b,0.422078,0.380282,-0.041796,rate
+transfer k=5 frontier-only: median,0.600000,0.400000,-0.200000,rate
+transfer k=5 frontier-only: chance,0.175439,0.200000,0.024561,rate
+transfer k=5 frontier-only: median_lift,0.424561,0.200000,-0.224561,rate
+transfer k=5 frontier-only: n_truncated,27,42,15,count
+transfer k=10 frontier-only: median,0.500000,0.400000,-0.100000,rate
+transfer k=10 frontier-only: chance,0.228070,0.220000,-0.008070,rate
+transfer k=10 frontier-only: median_lift,0.280702,0.202222,-0.078480,rate
+transfer k=10 frontier-only: n_truncated,84,90,6,count
+active tasks (non-zero wobble in >=1 model),57,50,-7,count
+"split-half reliability, median r_full",0.903950,0.903488,-0.000462,correlation
+share answered identically on all runs (1 - wobble),0.899603,0.912627,0.013024,share
+share answered correctly on all runs (p=1),0.845530,0.860438,0.014908,share
+share answered wrong on all runs (p=0),0.076784,0.062940,-0.013845,share
+pairs in the observable band 0.3 <= p <= 0.7,109,99,-10,count
+share in the observable band 0.3 <= p <= 0.7,0.019647,0.019351,-0.000296,share
+pairs in the band under the half-open reading 0.3 <= p < 0.7,93,85,-8,count
+tasks at accuracy >= 0.9,36,35,-1,count
+max structurally reachable wobble at accuracy >= 0.9,0.115363,0.115363,0.000000,rate
+max observed wobble at accuracy >= 0.9,0.166667,0.166667,0.000000,rate
+wobble-accuracy rho,-0.603413,-0.487007,0.116406,correlation
+residual rho after structural decomposition (calibrated),0.050330,0.188565,0.138235,correlation
+"conservative worst-to-mean ratio, median (3-task floor)",1.467466,0.600819,-0.866647,ratio
+models above 2x at the bound (3-task floor),4,0,-4,count
+"conservative worst-to-mean ratio, median (5-task floor)",0.739944,0.600819,-0.139126,ratio
+"capability gradient slope, frontier only",-0.635635,3.428742,4.064378,slope
+"capability gradient R2, frontier only",0.004901,0.679773,0.674872,r2

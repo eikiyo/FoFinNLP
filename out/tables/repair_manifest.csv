@@ -1,0 +1,11 @@
+leaf,item,repaired,orig_len,new_len,source,reason
+convert_vs_preference_decision,example4_convert,yes,1171,1171,local:snapwire.txt,"quote at raw 175061-175129, window 174510-175681 (1171 chars)"
+convert_vs_preference_decision,example5_take_preference,yes,1528,1528,local:snapwire.txt,"quote at raw 176677-176746, window 175948-177476 (1528 chars)"
+multi_round_stacked_dilution,axcella,yes,934,934,local:axcella.txt,"quote at raw 52890-52967, window 52462-53396 (934 chars)"
+multi_round_stacked_dilution,castlebio,yes,483,483,local:castlebio.txt,"quote at raw 50213-50280, window 50005-50488 (483 chars)"
+multi_round_stacked_dilution,civitas,yes,380,380,local:civitas.txt,"quote at raw 167214-167258, window 167046-167426 (380 chars)"
+multi_round_stacked_dilution,hyrecar,yes,355,355,local:hyrecar.txt,"quote at raw 85428-85488, window 85281-85636 (355 chars)"
+multi_round_stacked_dilution,veritone,yes,333,333,local:veritone.txt,"quote at raw 28661-28740, window 28534-28867 (333 chars)"
+option_pool_shuffle,example1,yes,334,334,local:snapwire.txt,"quote at raw 170765-170856, window 170644-170978 (334 chars)"
+option_pool_shuffle,example2,yes,330,330,local:snapwire.txt,"quote at raw 172425-172516, window 172306-172636 (330 chars)"
+option_pool_shuffle,example3,yes,334,334,local:snapwire.txt,"quote at raw 173427-173519, window 173306-173640 (334 chars)"

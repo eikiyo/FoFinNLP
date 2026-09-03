@@ -1,0 +1,11 @@
+leaf,item,answer,orig_len,new_len,before,after
+convert_vs_preference_decision,example4_convert,convert,1171,1171,,
+convert_vs_preference_decision,example5_take_preference,take-preference,1528,1528,,
+multi_round_stacked_dilution,axcella,1.96,934,934,False,True
+multi_round_stacked_dilution,castlebio,28.82,483,483,False,True
+multi_round_stacked_dilution,civitas,32.89,380,380,False,True
+multi_round_stacked_dilution,hyrecar,2.09,355,355,False,True
+multi_round_stacked_dilution,veritone,14.9,333,333,False,True
+option_pool_shuffle,example1,0.909,334,334,False,True
+option_pool_shuffle,example2,0.24,330,330,False,True
+option_pool_shuffle,example3,0.6956,334,334,False,True

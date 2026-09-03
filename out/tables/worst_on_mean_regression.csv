@@ -1,0 +1,5 @@
+outcome,model_set,n_models,slope,slope_se,slope_ci_lo,slope_ci_hi,intercept,intercept_ci_lo,intercept_ci_hi,r2,slope_below_one
+point_rate,all 12 models,12,1.603579,0.345610,0.926184,2.280975,0.244820,0.134795,0.354844,0.682824,0
+point_rate,frontier only,10,-0.635635,3.202317,-6.912176,5.640905,0.342844,0.047826,0.637861,0.004901,0
+robust_lo,all 12 models,12,1.694794,0.198829,1.305088,2.084500,0.044645,-0.018652,0.107942,0.879017,0
+robust_lo,frontier only,10,-0.078426,1.594138,-3.202936,3.046084,0.123668,-0.023194,0.270530,0.000302,0

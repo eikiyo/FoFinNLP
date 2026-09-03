@@ -1,0 +1,70 @@
+{
+ "n_items": 10,
+ "n_runs": 20,
+ "n_configs": 12,
+ "calls_per_config": 200,
+ "total_calls": 2400,
+ "priced_configs": [
+  "gemini3-flash-or",
+  "gemma4-31b-or",
+  "gpt-oss-120b-or",
+  "gpt5-mini-or",
+  "minimax-m2.5-or",
+  "mistral-large-or"
+ ],
+ "unpriced_configs": [
+  "deepseek-v4f",
+  "deepseek-v4p",
+  "gemma3-1b",
+  "gemma3-1b-qat",
+  "haiku-4.5-direct",
+  "llama3.3-70b-or"
+ ],
+ "per_config_usd": {
+  "gemini3-flash-or": 0.06373404255319148,
+  "gemma4-31b-or": 0.013927659574468086,
+  "gpt-oss-120b-or": 0.010631914893617022,
+  "gpt5-mini-or": 0.12171276595744682,
+  "minimax-m2.5-or": 0.14302553191489362,
+  "mistral-large-or": 0.020425531914893616
+ },
+ "priced_total_usd": 0.3734574468085107,
+ "priced_calls": 1200,
+ "unpriced_calls": 1200,
+ "tasks": [
+  "convert_vs_preference_decision",
+  "multi_round_stacked_dilution",
+  "option_pool_shuffle"
+ ],
+ "items": [
+  "convert_vs_preference_decision/example4_convert",
+  "convert_vs_preference_decision/example5_take_preference",
+  "multi_round_stacked_dilution/axcella",
+  "multi_round_stacked_dilution/castlebio",
+  "multi_round_stacked_dilution/civitas",
+  "multi_round_stacked_dilution/hyrecar",
+  "multi_round_stacked_dilution/veritone",
+  "option_pool_shuffle/example1",
+  "option_pool_shuffle/example2",
+  "option_pool_shuffle/example3"
+ ],
+ "unpriced_by_path": {
+  "direct": [
+   "deepseek-v4f",
+   "deepseek-v4p",
+   "haiku-4.5-direct"
+  ],
+  "local": [
+   "gemma3-1b",
+   "gemma3-1b-qat"
+  ],
+  "routed": [
+   "llama3.3-70b-or"
+  ]
+ },
+ "worst_case_usd": 0.9455595744680851,
+ "worst_case_rate": 0.000715127659574468,
+ "bills_anthropic_direct": [
+  "haiku-4.5-direct"
+ ]
+}

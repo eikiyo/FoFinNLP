@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{S[table-format=1.0] c S[table-format=1.3] S[table-format=2.2] r c r}
+\toprule
+{$k$} & {Mean} & {Chance} & {Ratio} & $p$ & 95\% CI & Trunc. \\
+\midrule
+3 & 0.144 & 0.014 & 10.23 & $<$ 0.00050 & [.042,.261] & 0/90 \\
+4 & 0.161 & 0.019 & 9.01 & $<$ 0.00050 & [.066,.266] & 18/90 \\
+5 & \textbf{0.187} & 0.024 & 8.91 & $<$ 0.00050 & [.102,.278] & 36/90 \\
+\bottomrule
+\end{tabular}
+\caption{Cross-model transfer of instability, frontier configurations only (10 models, 90 ordered pairs, 425 clean items), at each of the 3 values of $k$ the corpus supports. Each pair asks what share of configuration $A$'s $k$ least-stable \emph{items} fall inside $B$'s $2k$ least-stable. \emph{Chance} is the expected share under the effective $k$ after truncation, \emph{Ratio} is observed hits over expected, and the permutation $p$ is over 2{,}000 shuffles of each configuration's own values. The interval is a bootstrap over the ten \emph{configurations}, not the 90 pairs, which are not independent. \emph{Trunc.} counts pairs where a configuration had fewer than $k$ unstable items and the set was truncated rather than padded. $k=5$ is the pre-specified value. The claims this benchmark could not support are Table~\ref{tab:claims}.}
+\label{tab:transfer}
+\end{table}

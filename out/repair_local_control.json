@@ -1,0 +1,14 @@
+{
+ "gemma3-1b": {
+  "n": 14,
+  "agree": 12,
+  "share": 0.8571428571428571,
+  "equivalent": false
+ },
+ "gemma3-1b-qat": {
+  "n": 14,
+  "agree": 13,
+  "share": 0.9285714285714286,
+  "equivalent": true
+ }
+}

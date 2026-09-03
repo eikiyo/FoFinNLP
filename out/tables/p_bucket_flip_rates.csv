@@ -1,0 +1,4 @@
+bucket,n_items,n_flipped,observed_flip_rate,predicted_lower_bound_model,predicted_upper_bound_model
+p=0 (always wrong),503,129,0.256461,0.0000,1.0000
+0<p<1 (mixed),436,436,1.000000,—,—
+p=1 (always right),4693,0,0.000000,0.0000,0.0000

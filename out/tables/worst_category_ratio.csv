@@ -1,0 +1,13 @@
+model,mean_wobble,worst_category,worst_wobble,worst_lo,worst_hi,ratio,n_estimable_categories
+gemma3-1b,0.424307,cap_table,0.969697,0.846813,0.994631,2.2854,8
+deepseek-v4f,0.057447,regulatory,0.148148,0.059159,0.324787,2.5789,8
+deepseek-v4p,0.044776,exit_waterfall,0.125000,0.022417,0.470888,2.7917,8
+gemma4-31b-or,0.029851,exit_waterfall,0.500000,0.215216,0.784784,16.7500,8
+mistral-large-or,0.031915,exit_waterfall,0.250000,0.071479,0.590725,7.8333,8
+minimax-m2.5-or,0.074468,exit_waterfall,0.375000,0.136844,0.694258,5.0357,8
+llama3.3-70b-or,0.031983,exit_waterfall,0.375000,0.136844,0.694258,11.7250,8
+gemma3-1b-qat,0.338298,exit_waterfall,0.750000,0.409275,0.928521,2.2170,8
+gemini3-flash-or,0.025586,exit_waterfall,0.125000,0.022417,0.470888,4.8854,8
+haiku-4.5-direct,0.027778,exit_waterfall,0.500000,0.215216,0.784784,18.0000,8
+gpt-oss-120b-or,0.061834,exit_waterfall,0.250000,0.071479,0.590725,4.0431,8
+gpt5-mini-or,0.055319,exit_waterfall,0.500000,0.215216,0.784784,9.0385,8

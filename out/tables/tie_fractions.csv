@@ -1,0 +1,13 @@
+model,tie_fraction_full60,zero_fraction_full60,n_distinct_full60,tie_fraction_active,zero_fraction_active,excluded_from_headline
+gemma3-1b,0.8167,0.1333,22,0.8070,0.0877,1
+deepseek-v4f,0.9167,0.7000,12,0.9123,0.6842,1
+deepseek-v4p,0.8833,0.7500,11,0.8772,0.7368,1
+gemma4-31b-or,0.8833,0.8833,8,0.8772,0.8772,1
+mistral-large-or,0.8833,0.8000,10,0.8772,0.7895,1
+minimax-m2.5-or,0.9333,0.7000,11,0.9298,0.6842,1
+llama3.3-70b-or,0.9167,0.8500,8,0.9123,0.8421,1
+gemma3-1b-qat,0.7833,0.1667,24,0.7719,0.1228,0
+gemini3-flash-or,0.9167,0.8167,9,0.9123,0.8070,1
+haiku-4.5-direct,0.9167,0.8500,8,0.9123,0.8421,1
+gpt-oss-120b-or,0.8167,0.6667,16,0.8070,0.6491,1
+gpt5-mini-or,0.8500,0.7667,12,0.8421,0.7544,1

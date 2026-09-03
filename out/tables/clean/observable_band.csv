@@ -1,0 +1,5 @@
+reading,lo,hi,n_pairs,n_total,share
+closed,0.3,0.7,99,5116,0.019351
+half-open,0.3,0.7,85,5116,0.016615
+always correct,1.0,1.0,4402,5116,0.860438
+always wrong,0.0,0.0,322,5116,0.062940

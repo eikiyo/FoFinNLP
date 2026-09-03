@@ -1,0 +1,35 @@
+leaf,item,answer,bucket,source_state,reason
+convert_vs_preference_decision,example4_convert,convert,evidence-absent,verified-present,the quote not found: 'the investor would elect to convert the Agreement for Future'
+convert_vs_preference_decision,example5_take_preference,take-preference,evidence-absent,verified-present,the quote not found: 'the investor would elect to cash out the Agreement for Futur'
+current_ownership_pct,uber_al_rumayyan_pif_director,5.4,computational,not-checkable,"the quote not found: 'H.E. Yasir Al-Rumayyan (director; PIF-affiliated): 72,963 th'"
+current_ownership_pct,uber_all_directors_officers_group,33.9,computational,not-checkable,the quote not found: 'All directors and executive officers as a group (19 persons)'
+current_ownership_pct,uber_alphabet_entities,5.2,computational,not-checkable,"the quote not found: 'Entities affiliated with Alphabet Inc.: 71,097 thousand shar'"
+current_ownership_pct,uber_garrett_camp,6.0,computational,not-checkable,"the quote not found: 'Garrett Camp (through Expa-1, LLC and RMG-Trust LLC): 81,575'"
+current_ownership_pct,uber_matt_cohler_benchmark,11.0,computational,not-checkable,the quote not found: 'Entities affiliated with Benchmark Capital Partners (Matt Co'
+current_ownership_pct,uber_public_investment_fund,5.3,computational,not-checkable,"the quote not found: 'The Public Investment Fund: 72,841 thousand shares of 1,362,'"
+current_ownership_pct,uber_ryan_graves,2.4,computational,not-checkable,"the quote not found: 'Ryan Graves: 33,184 thousand shares of 1,362,500 thousand to'"
+current_ownership_pct,uber_sb_cayman,16.3,computational,not-checkable,"the quote not found: 'SB Cayman 2 Ltd. (SoftBank-affiliated vehicle): 222,228 thou'"
+current_ownership_pct,uber_travis_kalanick,8.6,computational,not-checkable,"the quote not found: 'Travis Kalanick: 117,505 thousand shares of 1,362,500 thousa'"
+employee_pool_pct,uber_2019_equity_incentive_plan_pool,9.5,computational,not-checkable,the quote not found: '130.0 million shares of our common stock reserved for future'
+founder_ownership_pct,uber_garrett_camp_founder,6.0,computational,not-checkable,"the quote not found: 'Garrett Camp (Founder; through Expa-1, LLC and RMG-Trust LLC'"
+founder_ownership_pct,uber_ryan_graves_ceo,2.4,computational,not-checkable,"the quote not found: 'Ryan Graves (CEO 2009-2010): 33,184 thousand shares of 1,362'"
+founder_ownership_pct,uber_travis_kalanick_founder,8.6,computational,not-checkable,"the quote not found: 'Travis Kalanick (Founder): 117,505 thousand shares of 1,362,'"
+investor_ownership_pct,uber_alphabet_investor,5.2,computational,not-checkable,"the quote not found: 'Entities affiliated with Alphabet Inc.: 71,097 thousand shar'"
+investor_ownership_pct,uber_benchmark_investor,11.0,computational,not-checkable,"the quote not found: 'Entities affiliated with Benchmark Capital Partners: 150,079'"
+investor_ownership_pct,uber_pif_investor,5.3,computational,not-checkable,"the quote not found: 'The Public Investment Fund: 72,841 thousand shares of 1,362,'"
+investor_ownership_pct,uber_sb_cayman_investor,16.3,computational,not-checkable,the quote not found: 'SB Cayman 2 Ltd. (SoftBank-affiliated investment vehicle): 2'
+liquidation_waterfall_payout,col1_selected_companies_ltm,0.51,evidence-absent,not-checkable,span 1 of 2 not found: 'Implied Per Share Reference Range'
+liquidation_waterfall_payout,col2_selected_companies_fy17e,0.42,evidence-absent,not-checkable,span 1 of 2 not found: 'Implied Per Share Reference Range'
+liquidation_waterfall_payout,col3_selected_companies_fy18e,0.39,evidence-absent,not-checkable,span 1 of 2 not found: 'Implied Per Share Reference Range'
+liquidation_waterfall_payout,col4_discounted_cash_flow,0.44,evidence-absent,not-checkable,span 1 of 2 not found: 'Implied Per Share Reference Range'
+multi_round_stacked_dilution,axcella,1.96,evidence-absent,verified-present,the quote not found: 'immediate dilution of $1.96 in as adjusted net tangible book'
+multi_round_stacked_dilution,castlebio,28.82,evidence-absent,verified-present,the quote not found: 'Dilution per share to new investors participating in this of'
+multi_round_stacked_dilution,civitas,32.89,evidence-absent,verified-present,the quote not found: 'Dilution per share to new investors $ 32.89'
+multi_round_stacked_dilution,hyrecar,2.09,evidence-absent,verified-present,the quote not found: 'Dilution per share to new investors in this offering $ 2.09'
+multi_round_stacked_dilution,veritone,14.9,evidence-absent,verified-present,the quote not found: 'Dilution per share to new investors purchasing shares in thi'
+option_pool_shuffle,example1,0.909,evidence-absent,verified-present,"the quote not found: 'The company will issue and sell 1,100,110 shares of Series A'"
+option_pool_shuffle,example2,0.24,evidence-absent,verified-present,"the quote not found: 'The company will issue and sell 2,500,000 shares of Series A'"
+option_pool_shuffle,example3,0.6956,evidence-absent,verified-present,"the quote not found: 'The company will issue and sell 2,875,215 shares of Series A'"
+participation_type,1053148_000095014401503351,participating,evidence-absent,verified-absent,"the quote not found: 'the preferential amounts so payable to them, the remaining a'"
+participation_type,1469166_000095012314005342,non-participating,evidence-absent,verified-absent,the quote not found: 'an amount per share of Series C Preferred equal to the great'
+participation_type,1604950_000119312517316695,participating,evidence-absent,verified-absent,span 2 of 2 not found: 'shall be distributed among the holders of the shares of Pref'

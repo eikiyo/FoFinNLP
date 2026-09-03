@@ -1,0 +1,13 @@
+model,mean_wobble,mean_wilson_lo,mean_wilson_hi,point_worst_category,point_worst_rate,point_worst_lo,point_worst_hi,second_worst_category,second_worst_rate,robust_worst_category,robust_worst_lo,point_ratio,conservative_ratio,conservative_ratio_point_selected,conservative_ratio_excl_worst,n_estimable_categories
+gemma3-1b,0.424307,0.380370,0.469474,cap_table,0.969697,0.846813,0.994631,exit_waterfall,0.750000,cap_table,0.846813,2.2854,1.8037,1.8037,1.9717,8
+deepseek-v4f,0.057447,0.039778,0.082291,regulatory,0.148148,0.059159,0.324787,exit_waterfall,0.125000,regulatory,0.059159,2.5789,0.7189,0.7189,0.7713,8
+deepseek-v4p,0.044776,0.029470,0.067479,exit_waterfall,0.125000,0.022417,0.470888,convertibles,0.074468,convertibles,0.036539,2.7917,0.5415,0.3322,0.5531,8
+gemma4-31b-or,0.029851,0.017863,0.049477,exit_waterfall,0.500000,0.215216,0.784784,cap_table,0.121212,exit_waterfall,0.215216,16.7500,4.3498,4.3498,5.4533,8
+mistral-large-or,0.031915,0.019435,0.051985,exit_waterfall,0.250000,0.071479,0.590725,regulatory,0.074074,exit_waterfall,0.071479,7.8333,1.3750,1.3750,1.5035,8
+minimax-m2.5-or,0.074468,0.054029,0.101806,exit_waterfall,0.375000,0.136844,0.694258,regulatory,0.296296,regulatory,0.158530,5.0357,1.5572,1.3442,1.6489,8
+llama3.3-70b-or,0.031983,0.019476,0.052094,exit_waterfall,0.375000,0.136844,0.694258,cap_table,0.090909,exit_waterfall,0.136844,11.7250,2.6269,2.6269,3.0449,8
+gemma3-1b-qat,0.338298,0.296988,0.382229,exit_waterfall,0.750000,0.409275,0.928521,cap_table,0.696970,cap_table,0.526619,2.2170,1.3778,1.0708,1.4031,8
+gemini3-flash-or,0.025586,0.014696,0.044185,exit_waterfall,0.125000,0.022417,0.470888,cap_table,0.060606,exit_waterfall,0.022417,4.8854,0.5074,0.5074,0.5310,8
+haiku-4.5-direct,0.027778,0.016304,0.046941,exit_waterfall,0.500000,0.215216,0.784784,cap_table,0.090909,exit_waterfall,0.215216,18.0000,4.5849,4.5849,5.8544,8
+gpt-oss-120b-or,0.061834,0.043394,0.087393,exit_waterfall,0.250000,0.071479,0.590725,cap_table,0.151515,exit_waterfall,0.071479,4.0431,0.8179,0.8179,0.8522,8
+gpt5-mini-or,0.055319,0.038028,0.079821,exit_waterfall,0.500000,0.215216,0.784784,regulatory,0.148148,exit_waterfall,0.215216,9.0385,2.6962,2.6962,3.0293,8

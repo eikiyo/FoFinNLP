@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l l l c S[table-format=2.0] c l}
+\toprule
+Task & Oracle & Models say & Runs & {Floor} & Unan. & Adjudication \\
+\midrule
+preference\_seniority & pari-passu & stacked & 235/237 & 17 & yes & excluded \\
+preference\_seniority & pari-passu & stacked & 224/226 & 5 & yes & excluded \\
+participation\_type & participating & capped & 228/237 & 13 & yes & excluded \\
+liquidation\_preference\_multiple & 1x & other & 220/229 & 11 & yes & excluded \\
+flag\_uncapped\_participation & yes & no & 220/234 & 14 & no & excluded \\
+flag\_uncapped\_participation & yes & no & 220/236 & 16 & no & excluded \\
+price\_per\_share & 0.2 & 2.0 & 220/239 & 10 & no & excluded \\
+\bottomrule
+\end{tabular}
+\caption{Items where the configurations' modal answers agree with each other and contradict the stored oracle label, ranked by run support. Of the 7, 7 have been adjudicated against the source filing. Runs is the number of the responses across all twelve configurations backing the models' answer. Floor is the weakest single configuration's own support out of 20 runs, carried as a column rather than applied as a filter: requiring every configuration to hold its answer on at least 18 of 20 admits none of these, and a criterion that empties the table is a result about the criterion. Unan. marks the items where all twelve configurations produced the same normalised answer. A flag is a candidate for human review and never a correction; no label changes until the author has read the filing and upheld it.}
+\label{tab:flags}
+\end{table*}

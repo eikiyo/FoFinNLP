@@ -1,0 +1,5 @@
+leaf,item_id,field,answer,guide
+investor_ownership_pct,uber_sb_cayman_investor,investor_ownership_pct,16.3,"the computed investor ownership percentage as a bare decimal (e.g., 16.3)"
+vesting_schedule,1293310_000119312512306440,vesting_schedule,4yr/1yr-cliff,"Normalized vesting schedule: e.g. '4yr/1yr-cliff', '3yr/no-cliff', '4yr/cliff'."
+vesting_schedule,1452751_000119312513403444,vesting_schedule,4yr/1yr-cliff,"Normalized vesting schedule: e.g. '4yr/1yr-cliff', '3yr/no-cliff', '4yr/cliff'."
+vesting_schedule,0001104659-09-054183_a09-26145_18k,vesting_schedule,4yr/1yr-cliff,"Normalized vesting schedule: e.g. '4yr/1yr-cliff', '3yr/no-cliff', '4yr/cliff'."

@@ -1,0 +1,5 @@
+stratum,n_items,usable,mean,median,hits,expected,ratio,n_pairs_sharing,reason
+0.00-0.25,6,False,,,,,,,"fewer than 10 items, cannot fill a top-10"
+0.25-0.50,7,False,,,,,,,"fewer than 10 items, cannot fill a top-10"
+0.50-0.75,5,False,,,,,,,"fewer than 10 items, cannot fill a top-10"
+0.75-1.00,407,True,0.11555555555555556,0.0,42,7.498771498771491,5.600917431192666,35,

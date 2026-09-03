@@ -1,0 +1,18 @@
+{
+ "gemma3-1b": {
+  "n_items": 14,
+  "expected": 3.8379999999999996,
+  "sd": 1.2019566339930903,
+  "observed": 2,
+  "z": -1.5291733062730164,
+  "consistent": true
+ },
+ "gemma3-1b-qat": {
+  "n_items": 14,
+  "expected": 0.949,
+  "sd": 0.659626598917903,
+  "observed": 1,
+  "z": 0.0773164697779986,
+  "consistent": true
+ }
+}

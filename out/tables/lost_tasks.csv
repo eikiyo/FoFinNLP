@@ -1,0 +1,9 @@
+leaf,category,answer_type,items,wobble,accuracy
+convert_vs_preference_decision,exit_waterfall,binary,2,0.0,0.9166666666666666
+current_ownership_pct,cap_table,numeric,9,0.19444444444444445,0.8240740740740741
+employee_pool_pct,cap_table,numeric,1,0.3333333333333333,0.8333333333333334
+founder_ownership_pct,cap_table,numeric,3,0.19444444444444445,0.8055555555555556
+investor_ownership_pct,cap_table,numeric,4,0.125,0.8333333333333334
+liquidation_waterfall_payout,exit_waterfall,numeric,4,0.6666666666666666,0.5
+multi_round_stacked_dilution,cap_table,numeric,5,0.15,0.8166666666666667
+option_pool_shuffle,cap_table,numeric,3,0.6111111111111112,0.4444444444444444

@@ -1,0 +1,78 @@
+% paper/sections/data_statement.tex
+% The CFP asks dataset papers for a data statement. Full version ships in the release repository as
+% DATA_STATEMENT.md; this is the appendix summary. Every number is recounted from the artifact by
+% audit/ds_facts.py, not copied from the prose of this paper. Two items are UNRESOLVED and are
+% printed as unresolved rather than filled with a plausible value.
+\section{Data statement}
+\label{sec:datastatement}
+
+\paragraph{Curation and sources.} Probity asks models to read venture-financing documents and answer
+questions whose answers carry money. One document class: public filings retrieved from the U.S.\ SEC
+EDGAR system, covering 965 distinct filings from 863 distinct filer CIKs. Items are identified as
+\texttt{CIK\_accession}, so each states which filing it came from and can be re-fetched from the
+EDGAR Archives. Two artifacts are stored per item: the full document as retrieved
+(1{,}145 files, 60.5\,MB) and the windowed extract actually shown to the model
+(524 files, 0.76\,MB). The distinction between them is this paper's subject.
+
+\paragraph{Composition.} 60 tasks over 470 items in 8 categories: priced equity (16 tasks),
+convertibles (12), cap table (7), rights and governance (7), founder equity (5), regulatory (5),
+risk flags (5), exit waterfall (3). Twelve configurations spanning eleven distinct base models over
+three serving paths (two local, three direct, seven routed), 20 samples per item at temperature 0.7:
+112{,}800 responses collected, 111{,}800 analysed after 1{,}000 parse failures.
+
+\paragraph{Exclusions.} Three layers, in order: 470 items as annotated; minus 36 removed by the
+provenance audit (31 quote-not-in-window, 3 both, 2 quote-not-in-source); minus 7 removed by author
+adjudication; leaving 427. Of 60 tasks, 52 retain at least one item. Audit coverage is reported three
+ways rather than as a pass rate: 416 verified-present, 49 not-checkable, 5 verified-absent. The
+audit's own two defects (a source lookup that never opened 150 of 470 items, and a matcher that
+flagged 8 items for its own construction) are reported in the Limitations section rather than
+silently repaired, because a reader cannot tell from a corrected artifact how much of it was wrong.
+
+\paragraph{Annotation.} One annotator produced every label. There is no second reading and this
+paper reports no inter- or intra-annotator agreement coefficient. Two consequences are stated exactly
+rather than loosely: the 7 items removed at adjudication were removed by the same person who produced
+the labels, so that step has no independent arbiter; and if the prepared pack is ever re-read by that
+same person, the result is \emph{intra}-annotator agreement and must be reported in those words,
+because only an independent reader yields \emph{inter}-annotator agreement. The blind re-annotation pack
+(154 items over 19 of 60 tasks, sized so that every category $\times$ answer-type stratum is
+represented), its protocol and its adjudication rule are released so a second reader can be run by
+anyone; the sitting has not happened. Every label ships with a validating quote and its source
+filing, which makes a label traceable to a document. That is not a substitute for a second annotator.
+
+\paragraph{Personal and identifying data.} The corpus is corporate. It names 313 distinct companies,
+retained deliberately because they are what makes a label auditable. Some labels do characterise a
+named company's terms: the five \texttt{flag\_*} tasks record readings such as an off-market
+liquidation preference or an uncapped participation against specific filings, 39 items in all. Each is one
+annotator's reading of one clause, carrying a validating quote from that document's own text; it is
+not a judgement of the filer, a claim about its present-day terms, or a conclusion this paper draws. Full filing texts are stored as
+retrieved and \emph{unredacted}, and this is counted rather than assumed: 758 of the 1{,}123 plain-text
+documents (67.5\%) carry an \texttt{/s/} signature block with a name, so most name at least one officer,
+director or counsel. No redaction was applied and none is claimed; a released
+\texttt{PERSONAL\_DATA.md} carries the full accounting, including a verified scan showing that no
+derived artifact aggregates or indexes any of those names. Those documents are
+already public at \texttt{sec.gov}, so this is a redistribution question rather than a disclosure
+one.
+
+\paragraph{Language and jurisdiction.} English only; United States only. The instruments and
+terminology are those of U.S.\ venture financing under U.S.\ securities law, and no claim is made
+that findings transfer to another jurisdiction's instruments without re-annotation.
+
+\paragraph{Licensing.} \textbf{The licence under which the retrieved filing text is redistributed is
+unresolved.} Three things the repository establishes: \texttt{LICENSE} is the MIT License and by its
+own text covers software; no data licence, licence header or redistribution statement for the corpus
+exists anywhere in it; and an SEC filing is authored by the filer and hosted by a government system,
+so government-works rules do not automatically apply. We draw no legal conclusion in either
+direction, and \textbf{we do not assert a redistribution right for the retrieved filing texts.} A
+re-user can rely on the extracts, labels, quotes, audit outputs and code under the licences the
+repository states; the full texts carry no asserted licence. The release includes all 1{,}145 of them,
+so the question is open over material already distributed rather than a decision still pending. Every
+table and figure here is reproducible from the extracts, labels and committed audit output alone; the
+full texts are needed only to re-run the provenance audit's source-document check.
+
+\paragraph{Intended use and out of scope.} Probity is an instrument for measuring answer
+instability. It is not legal advice, not a compliance tool, and not a basis for a financing
+decision: its central finding is that these models return different answers to the same question
+about the same document, so acting on any single answer is what the benchmark shows to be unsafe. It
+is not a general legal-reasoning benchmark, and at 470 items it is an instrument rather than a
+training set. Tuning on it and reporting the result as capability would be misuse. A high score
+means stability, which is not correctness.

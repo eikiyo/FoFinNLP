@@ -1,0 +1,8 @@
+leaf,item,unanimous,strict,consensus_answer,oracle,n_agree,n_models,runs_backing,runs_total,support,min_modal_n,meets_run_floor,url
+preference_seniority,878720_000089843001500356,True,False,stacked,pari-passu,12,12,235,237,0.9915611814345991,17,False,https://www.sec.gov/Archives/edgar/data/878720/000089843001500356/dex41.txt
+participation_type,1722271_000091205720000111,True,False,capped,participating,12,12,228,237,0.9620253164556962,13,False,https://www.sec.gov/Archives/edgar/data/1722271/000091205720000111/
+preference_seniority,1585521_000119312519083351,True,False,stacked,pari-passu,12,12,224,226,0.9911504424778761,5,False,https://www.sec.gov/Archives/edgar/data/1585521/000119312519083351/d642624dex31.htm
+liquidation_preference_multiple,1479290_000119312514020967,True,False,other,1x,12,12,220,229,0.9606986899563319,11,False,
+price_per_share,mobile_systems_s1,False,False,2.0,0.2,11,12,220,239,0.9205020920502092,10,False,
+flag_uncapped_participation,1604950_000119312517316695,False,False,no,yes,11,12,220,236,0.9322033898305084,16,False,
+flag_uncapped_participation,1722271_000091205720000111,False,False,no,yes,11,12,220,234,0.9401709401709402,14,False,

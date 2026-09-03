@@ -1,0 +1,23 @@
+{
+ "n_items": 470,
+ "n_clean": 434,
+ "n_with_issues": 36,
+ "issues": {
+  "validating quote not inside the window the model is shown": 34,
+  "validating quote NOT found in the source document": 5
+ },
+ "leaves_with_issues": {
+  "current_ownership_pct": 9,
+  "multi_round_stacked_dilution": 5,
+  "investor_ownership_pct": 4,
+  "liquidation_waterfall_payout": 4,
+  "participation_type": 3,
+  "founder_ownership_pct": 3,
+  "option_pool_shuffle": 3,
+  "convert_vs_preference_decision": 2,
+  "round_size": 1,
+  "employee_pool_pct": 1,
+  "securities_exemption": 1
+ },
+ "n_leaves": 60
+}

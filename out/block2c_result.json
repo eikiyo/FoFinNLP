@@ -1,0 +1,23 @@
+{
+ "n_cells": 120,
+ "n_items": 10,
+ "n_models": 12,
+ "before_flipped": 32,
+ "before_wobble": 0.26666666666666666,
+ "before_lo": 0.19568455046725244,
+ "before_hi": 0.352124393861476,
+ "after_flipped": 25,
+ "after_wobble": 0.20833333333333334,
+ "after_lo": 0.14528439608109694,
+ "after_hi": 0.2894767843298135,
+ "difference": {
+  "d": 0.05833333333333332,
+  "lo": -0.04947538829792117,
+  "hi": 0.1645321639574927,
+  "excludes_zero": false,
+  "width": 0.21400755225541387
+ },
+ "threshold": 0.161,
+ "meets_threshold": false,
+ "interval_below_threshold": false
+}
